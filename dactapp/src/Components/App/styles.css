@@ -1,4 +1,6 @@
 .application {
 	background-color: black;
 	color: aliceblue;
+	display: flex;
+	flex-direction: column;
 }
