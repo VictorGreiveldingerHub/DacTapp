@@ -4,9 +4,7 @@ import React from 'react';
 // == Import propre au component
 import './styles.css';
 
-// == Import components
-
-// Point central de l'application
+// Contact
 const Contact = () => {
   return (
     <div className="contact-container">

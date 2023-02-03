@@ -7,13 +7,14 @@ import './styles.css';
 
 // == Import components
 
-// Point central de l'application
+// Footer du site
 const Footer = () => {
   return (
     <div className="footer-container">
         <nav className="">
           <Link to="/mentionslegales">Mentions légales</Link>
           <Link to="/contact">Nous contacter</Link>
+          <Link to="/faq">Foire aux questions</Link>
         </nav>
         <nav className="sites-aide">
           <h2>Pour aller plus loin</h2>

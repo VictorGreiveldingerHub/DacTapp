@@ -6,7 +6,7 @@ import './styles.css';
 
 // == Import components
 
-// Point central de l'application
+// Mentions légales
 const MentionsL = () => {
   return (
     <div className="mentions-container">

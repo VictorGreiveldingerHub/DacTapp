@@ -7,7 +7,7 @@ import './styles.css';
 
 // == Import components
 
-// Point central de l'application
+// Header du site
 const Header = () => {
   return (
     <div className="header-container">

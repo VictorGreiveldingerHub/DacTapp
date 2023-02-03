@@ -6,6 +6,7 @@ import './styles.css';
 
 // == Import components
 
+// Page de profil
 const Profile = () => {
   return (
     <div className="profile-container">
