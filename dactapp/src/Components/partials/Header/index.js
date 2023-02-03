@@ -15,6 +15,7 @@ const Header = () => {
 				<nav>
 					<Link to="/">Accueil</Link>
 					<Link to="/game">Jeux</Link>
+					<Link to="/profile">Profile</Link>
 					<Link to="/signup">Inscription</Link>
 					<Link to="/signin">Connexion</Link>
 				</nav>

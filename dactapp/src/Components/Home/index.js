@@ -8,7 +8,7 @@ import './styles.css';
 const Home = () => {
 	return (
 		<div className="home-container">
-			<h1>Page d'accueil</h1>
+			<h2>Page d'accueil</h2>
 		</div>
 	);
 };
