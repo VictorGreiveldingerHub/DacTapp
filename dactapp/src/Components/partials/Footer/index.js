@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
         <nav className="">
-          <Link to="/mentionslegales">Mentions légales</Link>
+          <Link to="/mentions-legales">Mentions légales</Link>
           <Link to="/contact">Nous contacter</Link>
           <Link to="/faq">Foire aux questions</Link>
         </nav>

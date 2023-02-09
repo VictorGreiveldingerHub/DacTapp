@@ -1,5 +1,6 @@
 // == Imports globaux
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // == Import propre au component
 import './styles.css';
@@ -10,7 +11,9 @@ import './styles.css';
 const P404 = () => {
   return (
     <div className="404-container">
-				<h2>Oups, la page que ... 404</h2>
+				<h2>404</h2>
+        <span>La page que vous recherchez n'existe pas</span>
+        <Link to="/">Retourner dans Raxie</Link>
     </div>
   );
 };

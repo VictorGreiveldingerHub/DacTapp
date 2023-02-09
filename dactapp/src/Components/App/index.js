@@ -6,8 +6,8 @@ import { Routes, Route } from 'react-router-dom';
 import './styles.css';
 
 // == Import components
-import Header from '../partials/Header';
-import Footer from '../partials/Footer';
+import Header from '../partials/Header'; // Comprend la navigation du site
+import Footer from '../partials/Footer'; // Comprend les liens disponibles sur toutes les pages
 import Home from '../Home'; // Page d'accueil
 import Game from '../Game'; // Page des jeux
 import Profile from '../Profile'; // Page de profil
@@ -31,7 +31,7 @@ const App = () => {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
-        <Route path="/mentionslegales" element={<MentionsL />} />
+        <Route path="/mentions-legales" element={<MentionsL />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="*" element={<P404 />} />
