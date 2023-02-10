@@ -10,15 +10,13 @@ import './styles.css';
 // Header du site
 const Nav = () => {
   return (
-    <div className="navigation-container">
-				<nav>
-					<Link to="/">Accueil</Link>
-					<Link to="/game">Jeux</Link>
-					<Link to="/profile">Profile</Link>
-					<Link to="/signup">Inscription</Link>
-					<Link to="/signin">Connexion</Link>
-				</nav>
-    </div>
+		<nav className="navigation-container">
+			<Link to="/">Accueil</Link>
+			<Link to="/game">Jeux</Link>
+			<Link to="/profile">Profile</Link>
+			<Link to="/signup">Inscription</Link>
+			<Link to="/signin">Connexion</Link>
+		</nav>
   );
 };
 

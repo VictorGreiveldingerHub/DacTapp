@@ -13,21 +13,21 @@ const SignIn = () => {
 				<span>Dys en image qui fait quelque chose</span>
 			</div>
 			<div className="left-container">
-				<form action="" method="post" class="form-example">
-					<div class="form-example">
-						<label for="name">Pseudo ou mail ? </label>
+				<form action="" method="post" className="form-example">
+					<div className="form-example">
+						<label htmlFor="name">Pseudo ou mail ? </label>
 						<input type="text" name="name" id="name" required />
 					</div>
-					<div class="form-example">
-						<label for="email">Mot de passe </label>
+					<div className="form-example">
+						<label htmlFor="email">Mot de passe </label>
 						<input type="email" name="email" id="email" required />
 					</div>
 					<div>
 						<input type="checkbox" id="remind-me" name="remind-me" />
-						<label for="remind-me">Se souvenir de moi</label>
+						<label htmlFor="remind-me">Se souvenir de moi</label>
 						<span>Mot de passe oublié ?</span>
 					</div>
-					<div class="form-example">
+					<div className="form-example">
 						<input type="submit" value="Se connecter" />
 					</div>
 				</form>
@@ -36,7 +36,7 @@ const SignIn = () => {
 					<button>Google</button>
 				</div>
 				<div>
-					<span>Pas encore inscrit ? <Link to="/signup">S'inscrire ici.</Link></span>
+					<span>Pas encore inscrit ? <Link to="/signup">S&apos;inscrire ici.</Link></span>
 				</div>
 			</div>
 		</div>

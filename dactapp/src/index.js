@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+
+
 // == Imports globaux
 import React from 'react';
 import ReactDOM from 'react-dom/client';
