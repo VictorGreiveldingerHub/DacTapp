@@ -1,8 +1,8 @@
 // == Imports globaux
-import React from 'react';
+import React from "react";
 
 // == Import propre au component
-import './styles.css';
+import "./styles.css";
 
 // Page jeux de l'application
 const Game = () => {

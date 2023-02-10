@@ -1,11 +1,11 @@
 // == Imports globaux
-import React from 'react';
+import React from "react";
 
 // == Import propre au component
-import './styles.css';
+import "./styles.css";
 
 // == Import components
-import Nav from '../Nav';
+import Nav from "../Nav";
 
 // Header du site
 const Header = () => {
