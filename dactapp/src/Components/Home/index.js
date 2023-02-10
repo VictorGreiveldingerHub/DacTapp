@@ -6,11 +6,11 @@ import './styles.css';
 
 // Page d'accueil de l'application
 const Home = () => {
-	return (
-		<div className="home-container">
-			<h2>Page d'accueil</h2>
-		</div>
-	);
+  return (
+    <div className="home-container">
+      <h2>Page d&apos;accueil</h2>
+    </div>
+  );
 };
 
 export default Home;

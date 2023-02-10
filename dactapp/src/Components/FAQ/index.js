@@ -8,9 +8,9 @@ import './styles.css';
 const FAQ = () => {
   return (
     <div className="faq-container">
-			<h2>Foire aux questions</h2>
-		</div>
-	);
+      <h2>Foire aux questions</h2>
+    </div>
+  );
 };
 
 export default FAQ;

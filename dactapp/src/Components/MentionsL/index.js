@@ -10,7 +10,7 @@ import './styles.css';
 const MentionsL = () => {
   return (
     <div className="mentions-container">
-				<h2>Mentions légales</h2>
+      <h2>Mentions légales</h2>
     </div>
   );
 };
