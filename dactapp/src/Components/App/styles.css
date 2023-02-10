@@ -1,6 +1,13 @@
-.application {
-  background-color: black;
-  color: aliceblue;
+.application-dark {
+  background-color: var(--darkmode);
+  color: var(--lightmode);
+  display: flex;
+  flex-direction: column;
+}
+
+.application-light {
+  background-color: var(--lightmode);
+  color: var(--darkmode);
   display: flex;
   flex-direction: column;
 }

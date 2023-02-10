@@ -1,6 +1,6 @@
 :root {
-  --backwhite: #fff;
-  --backdark: #000;
+  --lightmode: #fff;
+  --darkmode: #000;
 }
 
 html,
@@ -9,6 +9,5 @@ body {
 }
 
 body {
-  background-color: #222;
   font-family: Arial, Helvetica, sans-serif;
 }

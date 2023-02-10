@@ -1,5 +1,5 @@
 // == Imports globaux
-import React from "react";
+import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
 // == Import propre au component
@@ -21,9 +21,21 @@ import P404 from "../404"; // Page 404
 
 // Point central de l'application
 const App = () => {
+  // Dark mode
+  const [theme, setTheme] = useState("light");
+
+  //
+  const darkModeToggle = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  };
+
   return (
-    <div className="application">
-      <Header />
+    <div className={`application-${theme}`}>
+      <Header darkModeToggle={darkModeToggle} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/game" element={<Game />} />
