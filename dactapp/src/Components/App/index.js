@@ -1,5 +1,5 @@
 // == Imports globaux
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
 // == Import propre au component
@@ -23,8 +23,9 @@ import P404 from "../404"; // Page 404
 const App = () => {
   // Dark mode
   const [theme, setTheme] = useState("light");
+  const [lowVision, setLowVision] = useState("normal");
 
-  //
+  // Change le theme du site
   const darkModeToggle = () => {
     if (theme === "light") {
       setTheme("dark");
@@ -33,9 +34,23 @@ const App = () => {
     }
   };
 
+  const lowVisionTheme = () => {
+    if (lowVision === "normal") {
+      setLowVision("low");
+    } else {
+      setLowVision("normal");
+    }
+  };
+
+  useEffect(() => {
+    document.body.className = theme;
+    document.body.className = lowVision;
+  }, [theme, lowVision]);
+
   return (
-    <div className={`application-${theme}`}>
+    <div className={`application-${theme}-${lowVision}`}>
       <Header darkModeToggle={darkModeToggle} />
+      <button onClick={lowVisionTheme}>LOW</button>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/game" element={<Game />} />
